@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../image/developpeur-web.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.header {
+    background-color: rgba(241, 234, 234, 0.5);
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    top: 0;
+    height: 60px;
+    z-index: 1;
+    /* Mettre en avant-plan */
+}
+
+.header li {
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 50px;
+    margin: 50px;
+}
+
+.header a {
+    color: rgb(253, 249, 249);
+    text-decoration: none;
+    position: relative;
+}
+
+.nom {
+    color: azure;
+    margin: 50px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.block {
+
+    padding-left: 80%;
+    padding-top: 10%;
+    text-decoration: none;
+}
+
+
+.button-container {
+    margin-bottom: 40px;
+}
+
+.button1,
+.button2 {
+    width: 100%;
+    display: block;
+}
+
+.button1 {
+    border: 1px solid;
+    line-height: 3;
+    width: 200px;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px;
+    background: transparent;
+    text-decoration: none;
+}
+
+.button1:hover{
+    letter-spacing: 0.25em;
+}
+
+.button2 {
+    border: 1px solid;
+    line-height: 3;
+    width: 200px;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px;
+    background: transparent;
+    text-decoration: none;
+}
+
+.button2:hover {
+    letter-spacing: 0.25em;
+}
+
+.shekil {
+    position: absolute;
+    top: 8%;
+    left: 20%;
+    transform: translateX(-50%);
+ 
+    height: 800px;
+    
+}
+
+.text{
+    position: absolute;
+     top: 25%;
+     left: 45%;
+     width: 30%;
+    font-size: 1.5rem;
+    font-family: 'DM sans', sans-serif;
+    color: #ffffff;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(170, 159, 159, 0.048);
+}
+
+.social-icons a {
+    margin: 0 10px;
+
+}
+
+.social-icons a img {
+    width: 35px;
+    height: 35px;
+}
+
+  li {
+      line-height: 30px;
+      
+      margin: 20px;
+  }
