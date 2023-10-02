@@ -139,3 +139,26 @@ footer {
       
       margin: 20px;
   }
+
+
+.formulaire {position: absolute;
+    top: 25%;
+    left: 45%;
+    line-height: 30px;
+    font-family: 'DM sans', sans-serif;
+    color: #ffffff;}
+
+
+#nom {width: 25em;}
+
+#prenom {
+    width: 25em;
+}
+
+#titre_message {
+    width: 25em;
+}
+
+#message {
+    width: 25em;
+}
