@@ -46,6 +46,35 @@
             <div class="block_mypic">
         <img class="shekil" src="./ter.png" alt="">
     </div>
+        <div class="formulaire">
+        <h2>Contactez-nous</h2>
+        
+        <form action="#" method="post">
+            <label for="nom">Nom :</label><br>
+            <input type="text" id="nom" name="nom" required><br>
+        
+            <label for="prenom">Prénom :</label><br>
+            <input type="text" id="prenom" name="prenom" required><br>
+        
+            <label for="titre_message">Titre du message :</label><br>
+            <input type="text" id="titre_message" name="titre_message" required><br>
+        
+            <label for="objet">Objet :</label><br>
+            <select id="objet" name="objet">
+                <option value="prise_de_contact">Prise de contact</option>
+                <option value="devis">Devis</option>
+                <option value="bug_report">Bug report</option>
+            </select><br>
+        
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+        
+            <label for="cgv">Accepter les conditions de traitement des données :</label>
+            <input type="checkbox" id="cgv" name="cgv" required><br>
+        
+            <input type="submit" class="button1" value="Envoyer">
+        </form>
+    </div>
     </div>
     <footer>
         <div class="social-icons">
